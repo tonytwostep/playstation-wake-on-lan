@@ -63,3 +63,7 @@ Similarly, you may also want to incorporate a power state check into your automa
 `netcat` and checking if a specific TCP port used by remote play is open.
 
 For example: `nc -z -w 5 ps4.lan 9295` where a `0`/`1` response will indicate the system is on/off respectively.
+
+### Credits
+- [Chiaki](https://sr.ht/~thestr4ng3r/chiaki/) - pairing process, initiating wakeup packet
+- [Wireshark](https://www.wireshark.org/) - wakeup packet analysis
