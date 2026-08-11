@@ -1,4 +1,4 @@
-# PlayStation Wake-on-Lan Tool
+# PlayStation Wake-on-LAN Tool
 
 A tiny Python utility that sends Wake-on-LAN (WoL) magic packets over UDP to wake various PlayStation consoles from
 rest mode.
