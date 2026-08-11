@@ -4,7 +4,7 @@ A tiny Python utility that sends Wake-on-LAN (WoL) magic packets over UDP to wak
 rest mode.
 
 Unlike some existing tools, this does not require PSN connectivity or the PlayStation Second Screen pairing process
-meaning `playstation-wol.py` **works on both jailbroken and offline-only consoles**.
+meaning `ps-wol.py` **works on both jailbroken and offline-only consoles**.
 
 Authentication only requires a hexadecimal registration key which can be obtained by following a remote play pairing
 process with tools like [Chiaki-Ng](https://github.com/streetpea/chiaki-ng)
@@ -15,7 +15,7 @@ or [Chiaki-Up](https://github.com/gameblabla/chiaki-up).
 For a PS4:
 
 ```bash
-./playstation-wol.py \
+./ps-wol.py \
     --console ps4 \
     --host ps4.lan \
     --registkey 12345678
@@ -24,7 +24,7 @@ For a PS4:
 For a PS5:
 
 ```bash
-./playstation-wol.py \
+./ps-wol.py \
     --console ps5 \
     --host ps5.lan \
     --registkey 12345678
